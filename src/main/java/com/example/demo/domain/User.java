@@ -15,7 +15,7 @@ public class User {
     private String name;
     private String email;
 
-    protected User() { // 无参构造函数;设为 protected 防止直接使用
+    public User() { // 无参构造函数;设为 protected 防止直接使用
     }
 
     @Override
