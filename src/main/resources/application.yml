@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost/blog?useSSL=false&serverTimezone=UTC&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+    
+
